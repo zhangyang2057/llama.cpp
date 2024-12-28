@@ -346,7 +346,7 @@ inline static int32x4_t ggml_vdotq_s32(int32x4_t acc, int8x16_t a, int8x16_t b) 
 #endif
 #endif
 
-#ifdef __riscv_v_intrinsic
+#ifdef __riscv_vector
 #include <riscv_vector.h>
 #endif
 

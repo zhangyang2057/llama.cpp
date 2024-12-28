@@ -13977,7 +13977,7 @@ int ggml_cpu_has_arm_fma(void) {
 }
 
 int ggml_cpu_has_riscv_v(void) {
-#if defined(__riscv_v_intrinsic)
+#if defined(__riscv_vector)
     return 1;
 #else
     return 0;
